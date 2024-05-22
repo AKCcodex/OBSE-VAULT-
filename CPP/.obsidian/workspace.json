@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "1ee3c2e24b4f7523",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ac348fc10f7bfc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63f5125defa2c546",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "graph/graph.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5fc377192bc4477",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a33be90e0002601",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96d2f28b6724308a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5eda5e08b6fd2058",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6180958a014b18f0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "23e1486cfda3d740",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2d1cc28e369254e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3193c9b66ec5f136",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "graph/graph.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7fcdd0fcf6153f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "graph/graph.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef5d62ef2a8e9d8b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ff351cd1a61eea9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "graph/graph.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "63f5125defa2c546",
+  "lastOpenFiles": [
+    "CPP",
+    "Pasted image 20240522221531.png",
+    "Drawing 2024-05-21 13.38.35.excalidraw.md",
+    "graph/graph.md",
+    "6th sem/Untitled.canvas",
+    "6th sem/Pasted Image 20240522121537_260.png",
+    "450/graph/450_graph.md",
+    "BINARY TREE/BINARY TREE.md",
+    "BINARY TREE/determine if two tree are identical or not.md",
+    "6th sem/Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
+    "Untitled.canvas",
+    "2024-05-21.md",
+    "doc/Pasted image 20240328144952.png",
+    "doc/Pasted image 20240328164854.png",
+    "doc/Pasted image 20240512151826.png",
+    "ARRAY/ARRAY.md",
+    "doc/Pasted image 20240401024736.png",
+    "doc/Pasted image 20240405163747.png",
+    "doc/Pasted image 20240428012228.png",
+    "BINARY TREE/zig zag traversal.md",
+    "BINARY TREE/sum tree.md",
+    "BINARY TREE/Sum of nodes on the longest path from root to leaf node.md",
+    "Untitled",
+    "Untitled.md",
+    "450/graph",
+    "6th sem/Excalidraw/Drawing 2024-05-19 23.48.42.excalidraw.md",
+    "doc",
+    "6th sem/doc/Pasted image 20240518030132.png",
+    "6th sem/doc/Pasted image 20240518025316.png",
+    "6th sem/doc",
+    "6th sem/Untitled",
+    "6th sem/ML/module 7.md",
+    "6th sem/module 7.md",
+    "6th sem/Untitled.md",
+    "450/array/450sheet-array.md",
+    "DSA INDEX.md",
+    "mini/backtracking.md",
+    "graph",
+    "mini/hashmap.md",
+    "BINARY SEARCH TREE/BINARY SEARCH TREE.md",
+    "backtracking",
+    "mini/trie.md",
+    "450/HEAP/450heap.md",
+    "mini",
+    "heap/heap.md",
+    "450/HEAP",
+    "matrix/MATRIX.md",
+    "heap",
+    "ARRAY/Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

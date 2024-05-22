@@ -1,0 +1,4 @@
+![[Pasted image 20240508021116.png]]
+## ****What is Transfer Learning?****
+
+Transfer learning is a technique in [machine learning](https://www.geeksforgeeks.org/machine-learning/) where a model trained on one task is used as the starting point for a model on a second task. This can be useful when the second task is similar to the first task, or when there is limited data available for the second task. By using the learned features from the first task as a starting point, the model can learn more quickly and effectively on the second task. This can also help to prevent [overfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/), as the model will have already learned general features that are likely to be useful in the second task.
