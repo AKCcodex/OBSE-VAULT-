@@ -1,3 +1,6 @@
+
+
+
 undirected-node,edge
 and directed graph- in degree and out degre
 
@@ -19,9 +22,9 @@ ans[v].push_back[u];
 BFS
 queue , visited
 
+![[Pasted image 20240524004714.png]]
 
 ```c
-
 void bfs(vector<vector<int> >& adjList, int startNode,
          vector<bool>& visited)
 {
@@ -50,6 +53,7 @@ void bfs(vector<vector<int> >& adjList, int startNode,
 
 DFS
 visited,
+![[Pasted image 20240524005024.png]]
 ```c
 voidDFS(){
 component.push_back(node);
@@ -72,107 +76,87 @@ ans.push_back(component);
 return ans;
 ```
 
-cycle detection
+cycle detection(undirected)
 
-
+![[Pasted image 20240524005218.png]]
 ```c
-bool isCycleBFS( int src,undererred_map<int,bool> &visited, undererred_map<int, list<int>>adj ){
+  bool isCycleBFS(int node, unordered_map<int, bool> &vis, vector<int> adj[]) {
+        unordered_map<int, int> parent;
+        parent[node] = -1;
+        vis[node] = true;
+        queue<int> q;
+        q.push(node);
 
-undererred_map<int,int> parent;      //map of parent
+        while (!q.empty()) {
+            int front = q.front();
+            q.pop();
 
-parent[src]=-1;
+            for (auto nbr : adj[front]) {
+                if (vis[nbr] && nbr != parent[front]) {
+                    return true;
+                } else if (!vis[nbr]) {
+                    q.push(nbr);
+                    vis[nbr] = true;
+                    parent[nbr] = front;
+                }
+            }
+        }
+        return false;
+    }
 
-visited[src]=1;
+    bool isCycle(int V, vector<int> adj[]) {
+        unordered_map<int, bool> vis;
 
-queue<int>q;
-
-q.push{src};
-
-while(!q.empty()){
-
-int front = q.front();
-
-q.pop();
-
-for(auto neigbour: adj[front]{
-
-	if(visited[neigbour]==true && neigbour != parent){      //base
-	
-	return true;
-
-}
-
-else if(!visited[neigbour]){
-
-q.push[neigbour];
-
-visited[neigbour]=1;
-
-parent[neigbour]=front;
-}}}return false;}
-string cycleDetection (vector<vector<int>>& edges, int n, int m)
-{
-//ADJ LIST
-undererred_map<int, list<int>>adj;
-
-for(int i=0;i<m;i++){
-
-int u = edges[i][0];
-
-int v = edges[i][1];
-
-adj[u].push_back(v);
-
-adj[v].push_back(u);
-}
-
-undererred_map<int,bool> visited;
-
-for(int i=0;i<n; i++){
-
-if(!visited[i]){
-
-bool ans=isCycleBFS(i , visited,adj);
-
-if(ans==1)
-
-return "Yes";
-
-}
-
-}
-
-return "No";
-
-}
+        for (int i = 0; i < V; i++) {
+            if (!vis[i]) {
+                bool ans = isCycleBFS(i, vis, adj);
+                if (ans) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 ```
 
 cycle detection (directed graph)
 visited , dfs visited
-***else if(dfsVisited[i]){
-return true;
-}
+![[Pasted image 20240524005334.png]]
 ```C
-bool checkCycle(node,  visited , dfs visited, adj){
-visited[node]=true;
-dfsvisited[node]=true;
-for(auto i:adj[node]){
-if(!visited[i]){
-bool cycleDetected = checkCycle(nbr , visited , dfs visited , adj );// call
-if(cycleDetected){
-return true;}
-else if(dfsVisited[i]){
-return true;}}}
-dfsvisited[node]=false;
-return false;
-}
-unordered_map<int,bool> visited;
-unordered_map<int,bool> dfs visited;
-fot(int i=1i<=1;i++)
-if(!visited[i]){
-bool cycleFound = checkCycle(i, visited,dfs visited,adj);
-if(cycleFound){
-return true;}}
+    bool checkCycle(int node, unordered_map<int, bool> &vis, unordered_map<int, bool> &dfsVis, vector<int> adj[]) {
+        vis[node] = true;
+        dfsVis[node] = true;
+
+        for (auto nbr : adj[node]) {
+            if (!vis[nbr]) {
+                bool cycleDetect = checkCycle(nbr, vis, dfsVis, adj);
+                if (cycleDetect) {
+                    return true;
+                }
+            } else if (dfsVis[nbr]) {
+                return true;
+            }
+        }
+
+        dfsVis[node] = false;
+        return false;
+    }
+
+    bool isCyclic(int V, vector<int> adj[]) {
+        unordered_map<int, bool> vis;
+        unordered_map<int, bool> dfsVis;
+
+        for (int i = 0; i < V; i++) {
+            if (!vis[i]) {
+                bool cycleFound = checkCycle(i, vis, dfsVis, adj);
+                if (cycleFound) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
 ```
 topological sort-use stack and dfs{DIRECTED ACYCLIC GRAPH}
 ```c
@@ -585,3 +569,48 @@ d[v] = d[u] + w;
 return d;
 }
 ``` 
+
+
+
+
+rat in a maze problem 
+```c
+vector<vector<int>> vis(5, vector<int> (5,0));
+vector<string>result;
+
+class Solution{
+    public:
+    void path(vector<vector<int>> &m,int x,int y,string dir,int n){
+        if(x==n-1 && y==n-1){
+            result.push_back(dir);
+            return ;
+        }
+        if(m[x][y]==0||vis[x][y]==1)return;
+        
+        vis[x][y]=1;
+        if(x>0) path(m,x-1,y,dir+'U',n);
+        if(y>0) path(m,x,y-1,dir+'L',n);
+        if(x<n-1) path(m,x+1,y,dir+'D',n);
+        if(y<n-1) path(m,x,y+1,dir+'R',n);
+        
+        vis[x][y]=0;
+    }
+    
+    
+    vector<string> findPath(vector<vector<int>> &m, int n) {
+        // Your code goes here
+        for(int i = 0 ;i<n;i++){
+            for(int j =0; j<n; j++){
+                vis[i][j]==false;
+            }
+        }
+        result.clear();
+        if(m[0][0]==0 || m[n-1][n-1]==0)return result;
+        path(m,0,0,"",n);
+        sort(result.begin(),result.end());
+        return result;
+    }
+};
+
+    
+```

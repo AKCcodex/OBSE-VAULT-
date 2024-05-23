@@ -1,3 +1,4 @@
+
 |                                                                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Create a Graph, print it](https://1drv.ms/t/s!AqTOHFO77CqEiRua06v1PATyiFg5)                                                                                                                        |
@@ -5,8 +6,8 @@
 | [Implement DFS Algo](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)                                                                                                          |
 | [Detect Cycle in Directed Graph using BFS/DFS Algo](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)                                                                                         |
 | [Detect Cycle in UnDirected Graph using BFS/DFS Algo](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)                                                            |
-| [Search in a Maze](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)                                                                                                             |
-| [Minimum Step by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight/0)                                                                                                             |
+| [Search in a Maze](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)       dont know #important[[graph]]                                                                         |
+| [Minimum Step by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight/0)   dont know #important [[graph]]                                                                            |
 | [flood fill algo](https://leetcode.com/problems/flood-fill/)                                                                                                                                        |
 | [Clone a graph](https://leetcode.com/problems/clone-graph/)                                                                                                                                         |
 | [Making wired Connections](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)                                                                                           |
