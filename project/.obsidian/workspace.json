@@ -20,20 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "42e6d4376d52b727",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1bf0080140611ad6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -152,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -162,6 +149,7 @@
   },
   "active": "ac317103bf328134",
   "lastOpenFiles": [
+    "maze generation.md",
     "Welcome.md"
   ]
 }
