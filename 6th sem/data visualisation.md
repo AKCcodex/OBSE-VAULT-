@@ -13,17 +13,9 @@
 
 3. What is Gradient descent? How does gradient descent works.
       
-Gradient descent is an optimization algorithm commonly used in machine learning to minimize a function by iteratively moving in the direction of steepest descent (negative gradient) of the function. It's widely used in training machine learning models, particularly in tasks like linear regression and neural network training.
 
-Here's how gradient descent works:
 
-1. **Initialization**: You start by initializing the model's parameters (weights) randomly or with some predefined values.
-    
-2. **Compute Gradient**: At each iteration, you compute the gradient of the loss function with respect to the parameters. The gradient points in the direction of the steepest increase in the loss function.
-    
-3. **Update Parameters**: Once you have the gradient, you update the parameters of the model by taking a step in the opposite direction of the gradient. This step size is controlled by a parameter called the learning rate.
-    
-4. **Iterate**: Steps 2 and 3 are repeated iteratively until convergence or until a stopping criterion is met. Convergence occurs when the algorithm finds parameter values that sufficiently minimize the loss function, or when it reaches a predefined number of iterations.
+
 
 4. Difference between overfitting & underfitting?
 

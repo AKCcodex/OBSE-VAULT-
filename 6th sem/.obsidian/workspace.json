@@ -8,7 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ba28b5976c9380a",
+            "id": "4df4087f57f270ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "module 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21547c43ec94f89f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "module 8.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1a4d08ff078b756",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "module 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5aea67a7edef2726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "module 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca5c06f1ad86c17c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "module 5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "201b140a81b8af10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "module 6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cc8b00371065343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "module 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a122869aba687e79",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,16 +100,6 @@
                 "file": "data visualisation.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1ff515a2bd7eff20",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md"
               }
             }
           }
@@ -96,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
+                "file": "module 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
+                "file": "module 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md"
+                "file": "module 8.md"
               }
             }
           }
@@ -159,26 +233,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1ff515a2bd7eff20",
+  "active": "21547c43ec94f89f",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "module 7.md",
+    "module 6.md",
+    "module 5.md",
+    "module 4.md",
+    "module 3.md",
+    "data visualisation.md",
+    "module 2.md",
+    "module 1.md",
+    "module 8.md",
+    "data vizulization",
+    "ML/module 7.md",
+    "ML/module 5.md",
+    "ML/module 3.md",
+    "ML/reinforsed learning & transfer learning.md",
     "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
+    "Untitled.canvas",
     "Pasted Image 20240522121537_260.png",
     "ML/module 6.md",
     "Excalidraw/Drawing 2024-05-19 23.48.42.excalidraw.md",
-    "data visualisation.md",
     "data v CT2.md",
-    "ML/module 7.md",
     "software Eng/SE.md",
     "6840_merged.pdf",
     "software Eng/mywbut.md",
     "Excalidraw",
-    "Untitled.md",
     "software Eng",
     "ML/module 4.md",
     "doc/Pasted image 20240518025316.png",
-    "ML/module 3.md",
-    "ML/module 5.md",
     "doc/Pasted image 20240518010544.png",
     "doc/Pasted image 20240518023741.png",
     "doc/Pasted image 20240518030132.png",
@@ -191,12 +274,9 @@
     "doc/Pasted image 20240508020828.png",
     "ML/module 2.md",
     "ML/module 1 END.md",
-    "ML/reinforsed learning & transfer learning.md",
     "ML/ML.md",
     "ML/supervised learnig.md",
     "sylasbus.md",
-    "ML/unsupervised learning.md",
-    "ML",
-    "Welcome.md"
+    "ML"
   ]
 }
