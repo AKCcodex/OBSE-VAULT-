@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 1.md",
+                "file": "data vizulization/module 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 8.md",
+                "file": "data vizulization/module 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 3.md",
+                "file": "data vizulization/module 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 4.md",
+                "file": "data vizulization/module 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 5.md",
+                "file": "data vizulization/module 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 6.md",
+                "file": "data vizulization/module 6.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 7.md",
+                "file": "data vizulization/module 7.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data visualisation.md",
+                "file": "data vizulization/data visualisation.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "module 8.md",
+                "file": "data vizulization/module 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "module 8.md",
+                "file": "data vizulization/module 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "module 8.md"
+                "file": "data vizulization/module 1.md"
               }
             }
           }
@@ -233,17 +233,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "21547c43ec94f89f",
+  "active": "a3e0a7549b20254d",
   "lastOpenFiles": [
-    "module 7.md",
-    "module 6.md",
-    "module 5.md",
-    "module 4.md",
-    "module 3.md",
-    "data visualisation.md",
-    "module 2.md",
-    "module 1.md",
-    "module 8.md",
+    "data vizulization/module 7.md",
+    "data vizulization/module 6.md",
+    "data vizulization/module 8.md",
+    "data vizulization/module 5.md",
+    "data vizulization/module 4.md",
+    "data vizulization/module 3.md",
+    "data vizulization/data visualisation.md",
+    "data vizulization/module 2.md",
+    "data vizulization/module 1.md",
     "data vizulization",
     "ML/module 7.md",
     "ML/module 5.md",
