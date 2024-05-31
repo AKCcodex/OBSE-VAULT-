@@ -2,9 +2,9 @@ Feature Selection Techniques
 Filter Methods- Information gain, Chi-Square test, Correlation and coefficient.
 Wrapper methods- Recursive feature elimination, Genetic Algorithm. Embedded
 method- Decision trees
-~~Principal Component Analysis (PCA)~~
+Principal Component Analysis (PCA)
 
-Feature Selection Techniques
+# Feature Selection Techniques
 Feature selection is a process that chooses a subset of features from the original features so that the feature space is optimally reduced according to a certain criterion.
  Feature selection is a critical step in the feature construction process. In text categorization problems, some words simply do not appear very often.\
  1. To reduce the dimensionality of feature space.
@@ -22,16 +22,83 @@ Some popular techniques of feature selection in machine learning are:
 - Wrapper methods
 - Embedded methods
 
-**Filter Methods**
+# **Filter Methods**
 
 These methods are generally used while doing the pre-processing step. These methods select features from the dataset irrespective of the use of any machine learning
-- **Information Gain –** It is defined as the amount of information provided by the feature for identifying the target value and measures reduction in the entropy values. Information gain of each attribute is calculated considering the target values for feature selection.
-- **Chi-square test —** Chi-square method (X2) is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
-- - **Correlation Coefficient –** Pearson’s Correlation Coefficient is a measure of quantifying the association between the two continuous variables and the direction of the relationship with its values ranging from _-1 to 1_.
-**Wrapper methods:**
+- ==**Information Gain== –** It is defined as the amount of information provided by the feature for identifying the target value and measures reduction in the entropy values. Information gain of each attribute is calculated considering the target values for feature selection.
+- ==**Chi-square test== —** Chi-square method (X2) is generally used to test the relationship between categorical variables. It compares the observed values from different attributes of the dataset to its expected value.
+- - ==**Correlation Coefficient== –** Pearson’s Correlation Coefficient is a measure of quantifying the association between the two continuous variables and the direction of the relationship with its values ranging from _-1 to 1_.
+
+
+# **Wrapper methods:**
 
 Wrapper methods, also referred to as greedy algorithms train the algorithm by using a subset of features in an iterative manner. Based on the conclusions made from training in prior to the model, addition and removal of features takes place. Stopping criteria for selecting the best subset are usually pre-defined by the person training the model such as when the performance of the model decreases or a specific number of features has been achieved.
-**Embedded methods:**
+
+## Recursive feature elimination, Genetic Algorithm
+
+### Recursive Feature Elimination (RFE)
+
+**Concept**:
+
+- RFE is a backward selection process that aims to identify the most relevant features by recursively removing the least important features based on model performance.
+
+**Process**:
+
+1. **Model Training**: Train the model using all features.
+2. **Feature Ranking**: Rank the features based on their importance (weights or coefficients assigned by the model).
+3. **Feature Elimination**: Remove the least important feature(s) from the dataset.
+4. **Repetition**: Repeat the training, ranking, and elimination process with the reduced feature set until the desired number of features is reached or all features are evaluated.
+
+### Genetic Algorithm (GA)
+
+**Concept**:
+
+- GA is an optimization technique inspired by the process of natural selection. It searches for optimal or near-optimal solutions by evolving a population of candidate solutions over several generations.
+
+**Process**:
+
+1. **Initialization**: Generate an initial population of candidate solutions, where each candidate (individual) represents a subset of features encoded as a binary string.
+2. **Fitness Evaluation**: Evaluate the fitness of each individual based on a defined performance metric, such as model accuracy.
+3. **Selection**: Select individuals with higher fitness scores to form a new population.
+4. **Crossover**: Combine pairs of individuals to create new offspring, mixing features from each parent.
+5. **Mutation**: Introduce random changes to some individuals to maintain genetic diversity.
+6. **Iteration**: Repeat the evaluation, selection, crossover, and mutation steps for a specified number of generations or until convergence.
+
+### Combining RFE and GA
+
+**Purpose**:
+
+- Combining RFE and GA leverages the strengths of both techniques, providing an efficient and effective method for feature selection.
+
+**Steps**:
+
+1. **Initial RFE**:
+    
+    - Apply RFE to the original feature set to reduce it to a more manageable size. This step helps to eliminate obviously irrelevant or redundant features, reducing the complexity and search space for the GA.
+2. **GA Optimization**:
+    
+    - Use GA on the reduced feature set from RFE to find the optimal subset of features. GA will explore various combinations of features, aiming to maximize the model's performance.
+    
+    **Detailed GA Steps**:
+    
+    - **Initialization**: Create an initial population where each individual is a binary string representing the inclusion (1) or exclusion (0) of a feature from the RFE-reduced set.
+    - **Fitness Function**: Define a fitness function that evaluates the performance (e.g., accuracy) of the model trained with the features selected by each individual.
+    - **Selection**: Select individuals based on their fitness scores using methods like tournament selection or roulette wheel selection.
+    - **Crossover**: Apply crossover operations to pairs of selected individuals to generate new offspring, combining features from both parents.
+    - **Mutation**: Introduce mutations by flipping bits in the binary strings of some individuals to maintain diversity in the population.
+    - **Iteration**: Repeat the process for a specified number of generations or until the population converges to an optimal or satisfactory solution.
+
+### Benefits of Combining RFE and GA
+
+- **Efficiency**: RFE reduces the number of features initially, making the GA optimization process faster and more manageable.
+- **Effectiveness**: GA explores various combinations of the remaining features to find the subset that provides the best model performance.
+- **Robustness**: The combined approach can handle high-dimensional datasets and complex interactions between features more effectively than using either method alone.
+
+### Conclusion
+
+Combining RFE and GA for feature selection provides a structured and efficient way to identify the most relevant features for a machine learning model. RFE quickly narrows down the feature set, and GA further refines it by exploring various combinations to find the optimal subset that maximizes model performance. This hybrid approach leverages the strengths of both methods, resulting in a more effective feature selection process.
+
+# **Embedded methods:**
 
 In embedded methods, the feature selection algorithm is blended as part of the learning algorithm, thus having its own built-in feature selection methods. Embedded methods encounter the drawbacks of filter and wrapper methods and merge their advantages. These methods are faster like those of filter methods and more accurate than the filter methods and take into consideration a combination of features as well.
 
@@ -72,7 +139,9 @@ A decision tree is a popular and intuitive model used in machine learning and st
 - **Bias in Favor of Features with More Levels:** Features with more categories might dominate the splits.
 - **Unstable:** Small variations in the data might result in completely different trees.
 
-**Principal Component Analysis 
+
+
+# **Principal Component Analysis 
 is a dimensional reduction technique used to simplify datasets while preserving important information. It does this by transforming the original variables into a new set of variables, called principal components, which are linear combinations of the original variables. These principal components are ordered by the amount of variance they explain, with the first component explaining the most variance in the data and subsequent components explaining less and less.
 
 principal components should be orthogonal because both should be independent should not depend on one another.

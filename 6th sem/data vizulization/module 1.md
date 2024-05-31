@@ -48,23 +48,6 @@ Probability deals with the likelihood of different outcomes.
   - **Sample Space (S)**: Set of all outcomes.
   - **Event (E)**: Subset of the sample space.
 
-- **Probability Measures**:
-  - **Probability (P(E))**: Likelihood of event E, with \(0 \leq P(E) \leq 1\) and \(P(S) = 1\).
-  - **Addition Rule**: For mutually exclusive events \(E_1\) and \(E_2\), \(P(E_1 \cup E_2) = P(E_1) + P(E_2)\).
-  - **Multiplication Rule**: For independent events \(E_1\) and \(E_2\), \(P(E_1 \cap E_2) = P(E_1) \cdot P(E_2)\).
-
-- **Conditional Probability**:
-  - **Definition**: \(P(A|B) = \frac{P(A \cap B)}{P(B)}\).
-  - **Bayes' Theorem**: \(P(A|B) = \frac{P(B|A)P(A)}{P(B)}\).
-
-- **Random Variables**:
-  - **Discrete**: Countable values (e.g., binomial).
-  - **Continuous**: Uncountable values (e.g., normal).
-
-- **Expectation and Variance**:
-  - **Expectation (E[X])**: Long-term average.
-  - **Variance (Var(X))**: Spread around the mean.
-
 #### 2. **Statistics**
 
 Statistics involves collecting, analyzing, and interpreting data.

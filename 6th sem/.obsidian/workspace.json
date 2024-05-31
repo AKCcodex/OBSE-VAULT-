@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data vizulization/module 1.md",
+                "file": "software Eng/module 6.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data vizulization/module 1.md",
+                "file": "software Eng/module 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data vizulization/module 1.md",
+                "file": "software Eng/module 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data vizulization/module 1.md"
+                "file": "software Eng/module 6.md"
               }
             }
           }
@@ -233,34 +233,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a3e0a7549b20254d",
+  "active": "21547c43ec94f89f",
   "lastOpenFiles": [
-    "data vizulization/module 7.md",
-    "data vizulization/module 6.md",
+    "software Eng/module 7.md",
+    "software Eng/module 6.md",
+    "software Eng/module 5.md",
+    "software Eng/module 4.md",
+    "software Eng/module 3.md",
+    "software Eng/module 2.md",
+    "software Eng/module 1.md",
+    "software Eng/Untitled",
+    "ML/module 7.md",
+    "ML/module 6.md",
+    "ML/module 5.md",
+    "ML/module 4.md",
+    "ML/module 3.md",
+    "ML/module 2.md",
+    "ML/module 1 END.md",
+    "ML/reinforsed learning & transfer learning.md",
+    "ML/unsupervised learning.md",
+    "ML/supervised learnig.md",
+    "ML/ML.md",
     "data vizulization/module 8.md",
+    "data vizulization/module 6.md",
+    "data vizulization/module 3.md",
+    "Untitled.canvas",
+    "data vizulization/module 7.md",
     "data vizulization/module 5.md",
     "data vizulization/module 4.md",
-    "data vizulization/module 3.md",
-    "data vizulization/data visualisation.md",
     "data vizulization/module 2.md",
     "data vizulization/module 1.md",
     "data vizulization",
-    "ML/module 7.md",
-    "ML/module 5.md",
-    "ML/module 3.md",
-    "ML/reinforsed learning & transfer learning.md",
-    "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
-    "Untitled.canvas",
-    "Pasted Image 20240522121537_260.png",
-    "ML/module 6.md",
-    "Excalidraw/Drawing 2024-05-19 23.48.42.excalidraw.md",
-    "data v CT2.md",
-    "software Eng/SE.md",
+    "doc/Pasted Image 20240522121537_260.png",
     "6840_merged.pdf",
-    "software Eng/mywbut.md",
     "Excalidraw",
     "software Eng",
-    "ML/module 4.md",
     "doc/Pasted image 20240518025316.png",
     "doc/Pasted image 20240518010544.png",
     "doc/Pasted image 20240518023741.png",
@@ -270,13 +277,7 @@
     "doc/Pasted image 20240508014003.png",
     "doc/Pasted image 20240510215846.png",
     "doc",
-    "2024-05-16.md",
     "doc/Pasted image 20240508020828.png",
-    "ML/module 2.md",
-    "ML/module 1 END.md",
-    "ML/ML.md",
-    "ML/supervised learnig.md",
-    "sylasbus.md",
     "ML"
   ]
 }
