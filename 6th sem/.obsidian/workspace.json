@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bd858265338a80a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "soft skills/module 5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software eng/module 6.md",
+                "file": "soft skills/module 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software eng/module 6.md",
+                "file": "soft skills/module 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "software eng/module 6.md"
+                "file": "soft skills/module 5.md"
               }
             }
           }
@@ -173,15 +185,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c26985b0847918c7",
+  "active": "bd858265338a80a4",
   "lastOpenFiles": [
-    "software eng/module 5.md",
+    "soft skills/module 4.md",
+    "soft skills/module 5.md",
+    "soft skills/module 3.md",
+    "soft skills/module 2.md",
+    "soft skills/module 1.md",
+    "doc/Pasted image 20240531223757.png",
+    "module.md",
     "software eng/module 6.md",
+    "soft skills",
+    "software eng/module 5.md",
     "software eng/module 4.md",
     "software eng/module 3.md",
     "software eng/module 2.md",
     "software eng/module 1.md",
-    "Pasted image 20240531223757.png",
     "doc/Pasted image 20240531213736.png",
     "information secutiry/module 3.md",
     "information secutiry/module 1.md",
@@ -203,12 +222,6 @@
     "ML/module 5.md",
     "ML/module 4.md",
     "ML/module 3.md",
-    "ML/module 2.md",
-    "ML/module 1 END.md",
-    "ML/reinforsed learning & transfer learning.md",
-    "ML/unsupervised learning.md",
-    "ML/supervised learnig.md",
-    "ML/ML.md",
     "Untitled.canvas",
     "data vizulization",
     "doc/Pasted Image 20240522121537_260.png",
