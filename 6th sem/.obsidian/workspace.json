@@ -25,86 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software Eng/module 6.md",
+                "file": "information secutiry/module 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c1a4d08ff078b756",
+            "id": "c26985b0847918c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data vizulization/module 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5aea67a7edef2726",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/module 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca5c06f1ad86c17c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/module 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "201b140a81b8af10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/module 6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cc8b00371065343",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/module 7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a122869aba687e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/data visualisation.md",
+                "file": "software eng/module 6.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software Eng/module 6.md",
+                "file": "software eng/module 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software Eng/module 6.md",
+                "file": "software eng/module 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "software Eng/module 6.md"
+                "file": "software eng/module 6.md"
               }
             }
           }
@@ -233,15 +173,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "21547c43ec94f89f",
+  "active": "c26985b0847918c7",
   "lastOpenFiles": [
+    "software eng/module 5.md",
+    "software eng/module 6.md",
+    "software eng/module 4.md",
+    "software eng/module 3.md",
+    "software eng/module 2.md",
+    "software eng/module 1.md",
+    "Pasted image 20240531223757.png",
+    "doc/Pasted image 20240531213736.png",
+    "information secutiry/module 3.md",
+    "information secutiry/module 1.md",
+    "doc/Pasted image 20240531222719.png",
+    "doc/Pasted image 20240531222555.png",
+    "doc/Pasted image 20240531222304.png",
+    "doc/Pasted image 20240531222241.png",
+    "data vizulization/module 1.md",
+    "software eng",
+    "information secutiry/module 6.md",
     "data v CT2.md",
-    "software Eng/module 5.md",
-    "software Eng/module 4.md",
-    "software Eng/module 3.md",
-    "software Eng/module 2.md",
-    "software Eng/module 1.md",
-    "software Eng/module 6.md",
+    "information secutiry/module 5.md",
+    "information secutiry/module 4.md",
+    "information secutiry/module 2.md",
     "software Eng/module 7.md",
     "software Eng/Untitled",
     "ML/module 7.md",
@@ -255,29 +209,16 @@
     "ML/unsupervised learning.md",
     "ML/supervised learnig.md",
     "ML/ML.md",
-    "data vizulization/module 8.md",
-    "data vizulization/module 6.md",
-    "data vizulization/module 3.md",
     "Untitled.canvas",
-    "data vizulization/module 7.md",
-    "data vizulization/module 5.md",
-    "data vizulization/module 4.md",
-    "data vizulization/module 2.md",
     "data vizulization",
     "doc/Pasted Image 20240522121537_260.png",
     "6840_merged.pdf",
     "Excalidraw",
-    "software Eng",
+    "information secutiry",
     "doc/Pasted image 20240518025316.png",
     "doc/Pasted image 20240518010544.png",
     "doc/Pasted image 20240518023741.png",
-    "doc/Pasted image 20240518030132.png",
-    "doc/Pasted image 20240430000443.png",
-    "doc/Pasted image 20240508014015.png",
-    "doc/Pasted image 20240508014003.png",
-    "doc/Pasted image 20240510215846.png",
     "doc",
-    "doc/Pasted image 20240508020828.png",
     "ML"
   ]
 }
