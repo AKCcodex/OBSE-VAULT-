@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data vizulization/m7.md",
+                "file": "data vizulization/m8.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,14 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data vizulization/m8.md",
+                "file": "ML/module 7.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -233,9 +233,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "59c0dd5a183e76fe",
+  "active": "97cb2f706288537b",
   "lastOpenFiles": [
     "data vizulization/m7.md",
+    "ML/module 7.md",
     "data vizulization/m8.md",
     "data vizulization/m6.md",
     "data vizulization/m5.md",
@@ -262,7 +263,6 @@
     "soft skills/module 5.md",
     "soft skills/module 4.md",
     "soft skills/module 3.md",
-    "soft skills/module 2.md",
     "doc/Pasted image 20240531223757.png",
     "soft skills",
     "doc/Pasted image 20240531213736.png",
