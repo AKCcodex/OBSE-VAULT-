@@ -59,7 +59,7 @@ GMMs are widely used for tasks like clustering, image segmentation, and anomaly 
 
 
 # expectation-maximization, 
-The Expectation-Maximization (EM) algorithm is an iterative method used to find maximum likelihood estimates of parameters in statistical models, where the model depends on unobserved latent variables. In the context of Gaussian Mixture Models (GMMs), EM is used to estimate the parameters of the mixture model.
+The Expectation-Maximization (EM) algorithm is an iterative method used to find ==maximum likelihood estimates== of parameters in statistical models, where the model depends on unobserved latent variables. In the context of Gaussian Mixture Models (GMMs), EM is used to estimate the parameters of the mixture model.
 
 
 

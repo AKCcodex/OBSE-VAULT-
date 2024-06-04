@@ -1,5 +1,5 @@
 # Importance of analytics and visualization in the era of data abundance.
-In the era of data abundance, analytics and visualization play a crucial role in transforming raw data into meaningful insights and actionable information. Their importance can be understood through several key aspects:
+==In the era of data abundance, analytics and visualization play a crucial role in transforming raw data into meaningful insights and actionable information. Their importance can be understood through several key aspects:==
 
 ### 1. **Decision-Making**
 - **Informed Decisions**: Analytics allows organizations to base their decisions on data-driven insights rather than intuition or guesswork. This leads to more accurate and effective decision-making.
@@ -99,7 +99,7 @@ Probability, statistics, and random processes provide essential tools for modeli
 # Brief introduction to estimation theory.
 ### Introduction to Estimation Theory
 
-Estimation theory is a branch of statistics that deals with estimating the values of unknown parameters based on measured or observed data. It plays a crucial role in various fields such as signal processing, control systems, econometrics, and more.
+==Estimation theory is a branch of statistics that deals with estimating the values of unknown parameters based on measured or observed data. It plays a crucial role in various fields such as signal processing, control systems, econometrics, and more.==
 
 #### Key Concepts
 

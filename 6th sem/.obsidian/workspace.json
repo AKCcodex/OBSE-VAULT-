@@ -4,18 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "6977035e04e44781",
+        "id": "3ec3a35f9e6fa3ec",
         "type": "tabs",
         "children": [
           {
-            "id": "97aac80965f72811",
+            "id": "43c5b14cb055aaf8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/dv suggestion M1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f70a58df79af5bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/m2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58484bc96c04a7fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/m3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e5000957af579ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/m4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "395d0aac5a771a77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/m5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d2fa8a30457e88e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/m6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97cb2f706288537b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/m7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59c0dd5a183e76fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data vizulization/m8.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -45,7 +134,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -61,8 +150,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "data vizulization/m8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "data vizulization/m8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +209,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "data vizulization/m8.md"
+              }
             }
           }
         ]
@@ -141,44 +233,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97aac80965f72811",
+  "active": "59c0dd5a183e76fe",
   "lastOpenFiles": [
-    "2024-06-04.md",
-    "data vizulization/module 8.md",
+    "data vizulization/m7.md",
+    "data vizulization/m8.md",
+    "data vizulization/m6.md",
+    "data vizulization/m5.md",
+    "data vizulization/m4.md",
+    "data vizulization/m3.md",
+    "data vizulization/m2.md",
+    "data vizulization/dv suggestion M1.md",
+    "machine_learning_suggestions sem 6.pdf",
+    "Drawing 2024-06-04 15.21.23.excalidraw.md",
     "data vizulization/data visualisation.md",
     "data vizulization/module 1.md",
+    "Untitled.canvas",
+    "2024-06-04.md",
+    "data v CT2.md",
+    "software eng/module 1.md",
+    "data vizulization/module 3.md",
+    "ML/module 2.md",
+    "ML/module 3.md",
+    "data vizulization/module 7.md",
+    "data vizulization/module 8.md",
+    "Excalidraw/Drawing 2024-06-04 01.26.06.excalidraw.md",
     "routine.md",
     "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
     "soft skills/module 5.md",
     "soft skills/module 4.md",
     "soft skills/module 3.md",
     "soft skills/module 2.md",
-    "soft skills/module 1.md",
     "doc/Pasted image 20240531223757.png",
-    "module.md",
-    "software eng/module 6.md",
     "soft skills",
-    "software eng/module 5.md",
-    "software eng/module 4.md",
-    "software eng/module 3.md",
-    "software eng/module 2.md",
-    "software eng/module 1.md",
     "doc/Pasted image 20240531213736.png",
-    "information secutiry/module 3.md",
-    "information secutiry/module 1.md",
     "doc/Pasted image 20240531222719.png",
     "doc/Pasted image 20240531222555.png",
     "doc/Pasted image 20240531222304.png",
     "doc/Pasted image 20240531222241.png",
     "software eng",
-    "information secutiry/module 6.md",
-    "data v CT2.md",
-    "information secutiry/module 5.md",
-    "information secutiry/module 4.md",
-    "information secutiry/module 2.md",
-    "software Eng/module 7.md",
     "software Eng/Untitled",
-    "Untitled.canvas",
     "data vizulization",
     "doc/Pasted Image 20240522121537_260.png",
     "6840_merged.pdf",

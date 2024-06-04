@@ -70,11 +70,11 @@ In short, machine learning works by training algorithms on data to learn pattern
        
 In machine learning:
 
-1. **Probability Distribution**:
+1. ==**Probability Distribution**:==
     
-    - It represents the likelihood of outcomes in data.
-    - Used for uncertainty modeling and in various algorithms.
-    - Examples include Gaussian, Bernoulli, and multinomial distributions.
+    - ==It represents the likelihood of outcomes in data.==
+    - ==Used for uncertainty modeling and in various algorithms.==
+    - ==Examples include Gaussian, Bernoulli, and multinomial distributions.==
 2. **Combination vs. Permutation**:
     
     - **Combination**: Used for feature subsets without considering order.
