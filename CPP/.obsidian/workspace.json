@@ -11,8 +11,12 @@
             "id": "0968624298872737",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DSA INDEX.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#important",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DSA INDEX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DSA INDEX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DSA INDEX.md"
+              }
             }
           }
         ]
@@ -143,8 +150,11 @@
   },
   "active": "0968624298872737",
   "lastOpenFiles": [
-    "ARRAY/ARRAY.md",
+    "2024-06-07.md",
+    "DSA INDEX.md",
+    "Untitled.canvas",
     "450/array/450sheet-array.md",
+    "ARRAY/ARRAY.md",
     "graph/graph.md",
     "Drawing 2024-05-21 13.38.35.excalidraw.md",
     "450/graph/450_graph.md",
@@ -161,7 +171,6 @@
     "BINARY TREE/BINARY TREE.md",
     "BINARY TREE/determine if two tree are identical or not.md",
     "6th sem/Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
-    "Untitled.canvas",
     "2024-05-21.md",
     "doc/Pasted image 20240328144952.png",
     "doc/Pasted image 20240328164854.png",
@@ -178,7 +187,6 @@
     "6th sem/ML/module 7.md",
     "6th sem/module 7.md",
     "6th sem/Untitled.md",
-    "DSA INDEX.md",
     "mini/backtracking.md",
     "graph",
     "mini/hashmap.md",
@@ -189,7 +197,6 @@
     "mini",
     "heap/heap.md",
     "450/HEAP",
-    "matrix/MATRIX.md",
     "ARRAY/Untitled.canvas",
     "Untitled 1.canvas"
   ]

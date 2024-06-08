@@ -121,4 +121,36 @@ go with the flow
 
 |Array|[Median of 2 sorted arrays of equal size](https://practice.geeksforgeeks.org/problems/find-the-median0527/1)|
 |Array|[Median of 2 sorted arrays of different size](https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/)|
-	
+[[https://leetcode.com/problems/find-common-characters/description/?envType=daily-question&envId=2024-06-05]]
+```c
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <unordered_map>
+
+using namespace std;
+
+vector<string> commonChars(vector<string>& words) {
+    vector<int> commonCount(26, INT_MAX); // Initialize with INT_MAX for all characters
+    
+    // Iterate over each word in the list
+    for (const string& word : words) {
+        vector<int> wordCount(26, 0);
+        for (char c : word) {
+            wordCount[c - 'a']++;
+        }
+        for (int i = 0; i < 26; ++i) {
+            commonCount[i] = min(commonCount[i], wordCount[i]);
+        }
+    }
+
+    vector<string> result;
+    for (int i = 0; i < 26; ++i) {
+        for (int j = 0; j < commonCount[i]; ++j) {
+            result.push_back(string(1, i + 'a'));
+        }
+    }
+    return result;
+}
+```

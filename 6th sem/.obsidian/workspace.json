@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ec3a35f9e6fa3ec",
+        "id": "764a421e19f4b901",
         "type": "tabs",
         "children": [
           {
-            "id": "43c5b14cb055aaf8",
+            "id": "3ab57c8dfb9d38d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,91 +20,19 @@
             }
           },
           {
-            "id": "6f70a58df79af5bb",
+            "id": "17d1c5edff295450",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data vizulization/m2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58484bc96c04a7fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/m3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e5000957af579ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/m4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "395d0aac5a771a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/m5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d2fa8a30457e88e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/m6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97cb2f706288537b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data vizulization/m8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59c0dd5a183e76fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/module 7.md",
+                "file": "data vizulization/dv suggestion M1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data vizulization/m8.md",
+                "file": "data vizulization/dv suggestion M1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data vizulization/m8.md",
+                "file": "data vizulization/dv suggestion M1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data vizulization/m8.md"
+                "file": "data vizulization/dv suggestion M1.md"
               }
             }
           }
@@ -233,36 +161,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97cb2f706288537b",
+  "active": "17d1c5edff295450",
   "lastOpenFiles": [
-    "data vizulization/m7.md",
-    "ML/module 7.md",
-    "data vizulization/m8.md",
-    "data vizulization/m6.md",
-    "data vizulization/m5.md",
-    "data vizulization/m4.md",
-    "data vizulization/m3.md",
-    "data vizulization/m2.md",
+    "DVA/MCQ.md",
     "data vizulization/dv suggestion M1.md",
+    "DVA",
+    "data vizulization/m2.md",
+    "cn/long.md",
+    "information secutiry/module 6.md",
+    "cn/short.md",
+    "cn/cn mcq.md",
+    "routine.md",
+    "cn",
+    "data vizulization/m3.md",
+    "data vizulization/m4.md",
+    "data vizulization/m5.md",
+    "data vizulization/m6.md",
+    "data vizulization/m7.md",
+    "data vizulization/m8.md",
+    "information secutiry/co6.md",
+    "information secutiry/co5.md",
+    "information secutiry/co4.md",
+    "information secutiry/co3.md",
+    "information secutiry/co2.md",
+    "information secutiry/Co 1.md",
+    "information secutiry/module 2.md",
+    "soft skills/module 1.md",
+    "ML/module 7.md",
+    "software eng/se 5.md",
+    "software eng/SE 10.md",
     "machine_learning_suggestions sem 6.pdf",
     "Drawing 2024-06-04 15.21.23.excalidraw.md",
-    "data vizulization/data visualisation.md",
-    "data vizulization/module 1.md",
     "Untitled.canvas",
-    "2024-06-04.md",
-    "data v CT2.md",
-    "software eng/module 1.md",
-    "data vizulization/module 3.md",
-    "ML/module 2.md",
-    "ML/module 3.md",
-    "data vizulization/module 7.md",
-    "data vizulization/module 8.md",
-    "Excalidraw/Drawing 2024-06-04 01.26.06.excalidraw.md",
-    "routine.md",
-    "Excalidraw/Drawing 2024-05-21 13.38.35.excalidraw.md",
-    "soft skills/module 5.md",
-    "soft skills/module 4.md",
-    "soft skills/module 3.md",
     "doc/Pasted image 20240531223757.png",
     "soft skills",
     "doc/Pasted image 20240531213736.png",
@@ -279,8 +209,6 @@
     "information secutiry",
     "doc/Pasted image 20240518025316.png",
     "doc/Pasted image 20240518010544.png",
-    "doc/Pasted image 20240518023741.png",
-    "doc",
-    "ML"
+    "doc/Pasted image 20240518023741.png"
   ]
 }
