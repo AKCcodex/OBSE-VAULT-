@@ -8,31 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ab57c8dfb9d38d3",
+            "id": "17d1c5edff295450",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data vizulization/dv suggestion M1.md",
+                "file": "ML/module 7.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "17d1c5edff295450",
+            "id": "0e1115c9f794d44d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data vizulization/dv suggestion M1.md",
+                "file": "ML/suggestion 1.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "228577d7e5a33000",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/6.0.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data vizulization/dv suggestion M1.md",
+                "file": "ML/6.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data vizulization/dv suggestion M1.md",
+                "file": "ML/6.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data vizulization/dv suggestion M1.md"
+                "file": "ML/6.0.md"
               }
             }
           }
@@ -161,38 +173,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "17d1c5edff295450",
+  "active": "228577d7e5a33000",
   "lastOpenFiles": [
-    "DVA/MCQ.md",
-    "data vizulization/dv suggestion M1.md",
-    "DVA",
-    "data vizulization/m2.md",
-    "cn/long.md",
-    "information secutiry/module 6.md",
-    "cn/short.md",
-    "cn/cn mcq.md",
-    "routine.md",
-    "cn",
-    "data vizulization/m3.md",
-    "data vizulization/m4.md",
-    "data vizulization/m5.md",
-    "data vizulization/m6.md",
+    "ML/5.0.md",
+    "ML/6.0.md",
+    "ML/4.0.md",
+    "ML/3.0.md",
+    "ML/2.0.md",
+    "ML/suggestion 1.0.md",
+    "ML/module 7.md",
+    "ML/module 5.md",
+    "ML/module 4.md",
+    "ML/module 3.md",
+    "ML/module 2.md",
+    "ML/module 1 END.md",
     "data vizulization/m7.md",
     "data vizulization/m8.md",
-    "information secutiry/co6.md",
-    "information secutiry/co5.md",
-    "information secutiry/co4.md",
-    "information secutiry/co3.md",
-    "information secutiry/co2.md",
-    "information secutiry/Co 1.md",
-    "information secutiry/module 2.md",
-    "soft skills/module 1.md",
-    "ML/module 7.md",
-    "software eng/se 5.md",
-    "software eng/SE 10.md",
+    "data vizulization/m4.md",
+    "data vizulization/m6.md",
+    "data vizulization/m5.md",
+    "data vizulization/m3.md",
+    "data vizulization/m2.md",
+    "data vizulization/dv suggestion M1.md",
+    "data vizulization/module 6.md",
+    "data vizulization/module 5.md",
+    "data vizulization/module 4.md",
+    "data vizulization/module 3.md",
+    "data vizulization/module 2.md",
+    "data vizulization/module 1.md",
     "machine_learning_suggestions sem 6.pdf",
-    "Drawing 2024-06-04 15.21.23.excalidraw.md",
     "Untitled.canvas",
+    "DVA",
+    "cn",
     "doc/Pasted image 20240531223757.png",
     "soft skills",
     "doc/Pasted image 20240531213736.png",

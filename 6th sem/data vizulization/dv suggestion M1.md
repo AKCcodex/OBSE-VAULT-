@@ -1,6 +1,6 @@
 ### MODULE-I (Short Answer Type Questions)
 
-#### 1. Define binomial distribution and provide a real-world application. [CO1]
+#### 1. ==Define binomial distribution and provide a real-world application.== [CO1]
 
 **Definition**: The binomial distribution is a discrete probability distribution that models the number of successes in a fixed number of independent and identically distributed Bernoulli trials. Each trial results in a success with probability \( p \) and a failure with probability \( 1 - p \).
 
@@ -28,7 +28,7 @@
 
 **Example**: Suppose we have a set of data points from a normal distribution, and we want to estimate the mean (\(\mu\)) and variance (\(\sigma^2\)). The MLE for \(\mu\) is the sample mean, and the MLE for \(\sigma^2\) is the sample variance.
 
-#### 5. How do visualizations enhance communication and storytelling with data? [CO2]
+#### ==5. How do visualizations enhance communication and storytelling with data?== [CO2]
 
 **Enhancement**: Visualizations translate complex data sets into graphical representations, making it easier to understand and interpret data. They highlight patterns, trends, and outliers, which can enhance storytelling by providing clear and compelling evidence to support arguments. Visualizations can simplify complex information, engage the audience, and improve retention of the presented information.
 
@@ -48,7 +48,7 @@
 
 **Estimation Theory**: Estimation theory is a branch of statistics that deals with estimating the values of parameters based on measured data. It involves point estimation, interval estimation, and hypothesis testing. Methods include Maximum Likelihood Estimation (MLE) and Bayesian estimation.
 
-#### A3. Explain the concept of probability distribution and provide examples of discrete and continuous probability distributions. Discuss their properties and applications. [CO1]
+#### A3. ==Explain the concept of probability distribution and provide examples of discrete and continuous probability distributions. Discuss their properties and applications.== [CO1]
 
 **Probability Distribution**: A probability distribution describes how the values of a random variable are distributed. It gives the probabilities of different outcomes.
 
